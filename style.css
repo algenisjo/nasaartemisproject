@@ -1,0 +1,459 @@
+/*General-------------------------------------------------------------*/
+*{
+margin: 0;
+padding: 0;
+border: 0;
+font-family: sans-serif;
+}
+
+div{
+    box-sizing: inherit;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+img{
+    margin: -5px 0px;
+}
+
+p{
+    margin: 50px;
+}
+
+a:visited{
+    color: white;
+}
+/*Top Nav List Items-------------------------------------------------------------*/
+ul{
+    list-style-type: none;
+    margin: 10px 0px 20px 10px;
+    padding: 0;
+    float: left;
+}
+
+li{
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+li:hover{
+    background-color: rgb(163, 157, 157);
+}
+
+/*Imgs-------------------------------------------------------------*/
+
+.img1{
+    height: 40px;
+    display: inline;
+    border: none;
+    margin-bottom: -15px;
+}
+
+/*Videos-------------------------------------------------------------*/
+video{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+ /* Banners -------------------------------------------------------------*/
+ .banner{
+     text-align: center;
+     background-color: rgb(187, 13, 13);
+     color: white;
+     font-size: 30px;
+     padding: 10px 20px;
+     margin:0px;
+     font-weight: bolder;
+ }
+
+ .banner2{
+    text-align: center;
+    background-color: rgb(15, 15, 92);
+    color: white;
+    font-size: 30px;
+    padding: 20px 20px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.banner3{
+    text-align: center;
+    background-color: #dfdfdf;
+    color: rgb(82, 80, 80);
+    font-size: 40px;
+    padding: 20px 20px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.banner4{
+    text-align: center;
+    background-color: #dfdfdf;
+    color: white;
+    font-size: 350px;
+    margin:0px ;
+    font-weight: bolder;
+    height: 225px;
+    line-height: 200px;
+    padding-top: 160px;
+}
+/*Parallax Effect -------------------------------------------------------------*/
+.margin{
+    margin: 0;
+}
+
+.parallax{
+    background: url("https://www.nasa.gov/specials/artemis/img/foo-01.jpg")
+    repeat fixed 100%;
+}
+
+.parallax2{
+    background: url("https://www.nasa.gov/specials/artemis/img/foo-02a.jpg")
+    repeat fixed 100%;
+}
+
+.parallax3{
+    background: url("https://www.nasa.gov/specials/artemis/img/foo-03.jpg")
+    repeat fixed 100%;
+}
+
+.parallax4{
+    background: url("https://www.nasa.gov/specials/artemis/img/foo-05.jpg")
+    repeat fixed 100%;
+}
+
+
+
+.parallax-inner{
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.parallaxh1{
+    text-align: center;
+     background-color: rgb(187, 13, 13);
+     color: white;
+     font-size: 30px;
+     padding: 10px 20px;
+     margin:0px;
+     font-weight: bolder;
+     width: 130px;
+     border-radius: 5px;
+     margin-left:600px;
+     letter-spacing: 10px;
+}
+
+
+/*--BluePrints Card Show-------------------------------------------------------------------------------------------*/
+.blueprints{
+    background-color: black;
+    padding: 40px;
+    clear: both;
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+/*--Card Show-------------------------------------------------------------------------------------------*/
+.cards{
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    float: left;
+}
+
+.cards p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+button{
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    font-size: 30px;
+}
+
+button:hover{
+    background-color: rgb(192, 181, 181);
+    color: black;
+}
+
+.img-cards{
+    width: 300px;
+}
+
+
+/*weGo -------------------------------------------------------------*/
+
+.cards2{
+    background-color: #dfdfdf;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    float: left;
+}
+.wego{
+    background-color: #dfdfdf;
+    padding: 40px;
+    clear: both;
+    display: inline-block;
+    margin-bottom: -100px;
+    width: 94%;
+}
+
+.button2{
+    height: 130px;
+    width: 300px;
+    background-color: #dfdfdf;
+    color: black;
+    margin: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.button2:hover{
+    background-color: #cac5c5;
+    color: black;
+}
+
+/*--Image into Video-------------------------------------------------------------------------------------------*/
+
+.fancy4{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    right: 100px;
+    color: white;
+   line-height: 120px;
+   font-size: 30px;
+   text-align: center;
+   }
+
+   .btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: transparent;
+  }
+
+
+  .fas{
+      font-size: 20px;;
+  }
+
+  .fas:hover{
+      color: black;
+  }
+
+/*--More about the ARtemis-------------------------------------------------------------------------------------------*/
+.cards3{
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    float: left;
+}
+
+
+.artemisdiv{
+    background-color: black;
+    padding: 40px;
+    clear: both;
+    display: inline-block;
+    margin-bottom: 0px;
+    width: 94%;
+}
+
+.artemisbutton{
+    height: 170px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.artemisbutton:hover{
+    background-color: #dfdfdf;
+    color: black;
+}
+
+/*--Article2-------------------------------------------------------------------------------------------*/
+.article2{
+    background-color: black;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.box2{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    line-height:1;
+    background-color: rgb(32, 32, 190);
+    color: white;
+    margin: -4px 470px;
+    border-radius: 5px;
+    padding: 15px;
+    clear: both;
+ }
+
+ .box2:hover{
+     background-color: grey;
+     color: black;
+ }
+
+/*Artemis Projects-------------------------------------------------------------*/
+
+.artemisimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.artemisfancy{
+    position: relative;
+ }
+
+ .artemislist{
+    color: red;
+ }
+
+ .artemislist1{
+    padding-left: 200px;
+}
+
+ ul .artmeistlist li{
+    display: inline;
+ }
+
+ .artemisli{
+    font-size: 25px; 
+    color: red;
+ }
+
+ .artemisp{
+     float: left;
+     color: rgb(68, 65, 65);
+     line-height: 25px;
+ }
+
+ .artemisicons{
+    width: 180px;
+    padding-top: 40px;
+ }
+
+/*Article 3--------------------------------------------------------------------------------------------------------------------------*/
+
+.article3{
+    background-color: rgb(15, 15, 92);
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.box3{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height:1;
+    background-color: rgb(32, 32, 190);
+    color: white;
+    margin: -4px 550px;
+    border-radius: 5px;
+    padding: 15px;
+    clear: both;
+ }
+
+ .box3:hover{
+    background-color: grey;
+    color: black;
+}
+
+
+
+/*Footer---------------------------------------------------- -------------------------------------------------------------*/
+
+.banner6{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 20px 20px;
+    margin: 0px;
+    height: 150px;
+}
+
+
+/*Sort These Out -------------------------------------------------------------*/
+.paragraph1{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height:1.5;
+}
+
+.box1{
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    line-height:1.5;
+    background-color: rgb(187, 13, 13);
+    margin: 0 480px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 40px;
+ }
+
+ .box1:hover{
+     background-color: grey;
+     color: black;
+ }
+
+ .fancy{
+    position: relative;
+ }
+
+ .fancy2{
+     position: absolute;
+     top: 8px;
+     right: -10px;
+     color: white;
+    line-height: 120px;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: right;
+    }
+
+    .fancy3{
+        position: absolute;
+        top: 8px;
+        right: -10px;
+        color: white;
+       line-height: 120px;
+       font-size: 80px;
+       font-weight: bold;
+       text-align: right;
+       background-color: rgb(187, 13, 13);
+       padding: 0px 20px;
+       }
+
+
