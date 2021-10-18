@@ -54,6 +54,47 @@ li:hover{
     background-color: rgb(163, 157, 157);
 }
 
+/* MAiN WALLPAPER MAIN WALLPAPER */
+.mainwallpaper img{
+    width: 60%;
+}
+
+/* OVERVIEW OVERVIEW OVERVIEW OVERVIEW OVERVIEW OVERVIEW OVERVIEW OVERVIEW OVERVIEW */
+
+.overview{
+    display: flex;
+    flex-direction: column;
+}
+.paragraph1{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height:1.5;
+    margin: 20px;
+}
+
+.box1{
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    line-height:1.5;
+    background-color: rgb(187, 13, 13);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    min-width: 600px;
+    max-width: 700px;
+    align-self: center;
+    margin: 30px;
+ }
+
+ .box1:hover{
+     background-color: grey;
+     color: black;
+ }
+
+
+
 /*Imgs-------------------------------------------------------------*/
 
 .img1{
@@ -410,29 +451,7 @@ button:hover{
 
 
 /*Sort These Out -------------------------------------------------------------*/
-.paragraph1{
-    text-align: center;
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    line-height:1.5;
-}
 
-.box1{
-    text-align: center;
-    font-size: 28px;
-    letter-spacing: 1.5px;
-    line-height:1.5;
-    background-color: rgb(187, 13, 13);
-    margin: 0 480px;
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 40px;
- }
-
- .box1:hover{
-     background-color: grey;
-     color: black;
- }
 
  .fancy{
     position: relative;
