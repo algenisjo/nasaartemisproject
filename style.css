@@ -144,15 +144,16 @@ video{
 }
 
 .banner4{
+ 
     text-align: center;
     background-color: #dfdfdf;
     color: white;
-    font-size: 350px;
+    font-size: 290px;
     margin:0px ;
     font-weight: bolder;
     height: 225px;
-    line-height: 200px;
-    padding-top: 160px;
+    line-height: 245px;
+    padding-top: 60px;
 }
 /*Parallax Effect -------------------------------------------------------------*/
 .margin{
@@ -260,17 +261,16 @@ button:hover{
     margin: 20px;
     display: flex;
     flex-direction: column;
-    border: dashed 3px purple;
 }
 .wego{
     background-color: #dfdfdf;
     padding: 40px;
-    margin-bottom: -100px;
-    border: solid 2px red;
     display: flex;
     flex-wrap: wrap;
 }
 
+
+/* ??????????????????????????????? */
 .button2{
     height: 130px;
     width: 300px;
