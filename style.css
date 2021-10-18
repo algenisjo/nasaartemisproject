@@ -219,7 +219,6 @@ video{
     text-align: center;
     margin: 20px;
     float: left;
-    border: solid 2px red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,22 +251,24 @@ button:hover{
 }
 
 
-/*weGo -------------------------------------------------------------*/
+/* WE GO WE GO WE GO WE GO WE GO WE GO WE GO WE GO WE GO WE GO WE GO */
 
 .cards2{
     background-color: #dfdfdf;
     width: 300px;
     text-align: center;
     margin: 20px;
-    float: left;
+    display: flex;
+    flex-direction: column;
+    border: dashed 3px purple;
 }
 .wego{
     background-color: #dfdfdf;
     padding: 40px;
-    clear: both;
-    display: inline-block;
     margin-bottom: -100px;
-    width: 94%;
+    border: solid 2px red;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .button2{
