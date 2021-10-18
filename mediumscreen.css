@@ -1,0 +1,24 @@
+/* ADDING BREAKPOINTS / MEDIA QUERIES------------------------------------------------------------------- */
+
+/* 481px — 1024px: Tablets and Laptops ----------------------------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+
+    /* HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING  */
+.fancy2{
+    top: 0px;
+    right: -10px;
+    line-height: 60px;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+.fancy3{
+    top: 0px;
+    right: -10px;
+    line-height: 60px;
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+}
