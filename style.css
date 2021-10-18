@@ -457,28 +457,32 @@ button:hover{
     position: relative;
  }
 
- .fancy2{
-     position: absolute;
-     top: 8px;
-     right: -10px;
-     color: white;
+
+ /* HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING  */
+.fancy2{
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    color: white;
     line-height: 120px;
     font-size: 80px;
     font-weight: bold;
     text-align: right;
-    }
 
-    .fancy3{
-        position: absolute;
-        top: 8px;
-        right: -10px;
-        color: white;
-       line-height: 120px;
-       font-size: 80px;
-       font-weight: bold;
-       text-align: right;
-       background-color: rgb(187, 13, 13);
-       padding: 0px 20px;
-       }
+}
+
+.fancy3{
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    color: white;
+    line-height: 120px;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: right;
+    background-color: rgb(187, 13, 13);
+    padding: 0px 20px;
+
+}
 
 
