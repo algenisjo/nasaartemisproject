@@ -208,6 +208,8 @@ video{
     clear: both;
     display: inline-block;
     margin-bottom: -10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*--Card Show-------------------------------------------------------------------------------------------*/
@@ -217,6 +219,10 @@ video{
     text-align: center;
     margin: 20px;
     float: left;
+    border: solid 2px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cards p{
