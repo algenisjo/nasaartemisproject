@@ -8,6 +8,8 @@ font-family: sans-serif;
 
 div{
     box-sizing: inherit;
+    display: flex;
+    justify-content: center;
 }
 
 html{
@@ -28,6 +30,10 @@ p{
 
 a:visited{
     color: white;
+}
+/* <!--NavBar-------------------------------------------------------------------------------------------> */
+.navbar{
+    justify-content: flex-start;
 }
 /*Top Nav List Items-------------------------------------------------------------*/
 ul{
