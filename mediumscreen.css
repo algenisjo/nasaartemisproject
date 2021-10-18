@@ -4,13 +4,23 @@
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
 
-    .box1{
-   
-        min-width: 450px;
-       
-     }
 
-    /* HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING  */
+.banner4{
+    color: white;
+    font-size: 290px;
+    margin:0px ;
+    font-weight: bolder;
+    height: auto;
+    line-height: auto;
+    padding: 0px 0px 40px;
+}
+
+
+.box1{
+min-width: 450px;
+}
+
+/* HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING HOW WE ARE GOING  */
 .fancy2{
     top: 0px;
     right: -10px;
