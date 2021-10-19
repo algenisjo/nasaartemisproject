@@ -386,10 +386,6 @@ button:hover{
  
  }
 
- /* ul .artmeistlist li{
-    display: inline;
- } */
-
  .artemislist div{
     font-size: 25px; 
     color: red;
@@ -397,16 +393,34 @@ button:hover{
     text-decoration: underline;
  
  }
+/* PATCHES & PATHCES INFO PATCHES & PATHCES INFO PATCHES & PATHCES INFO */
+.patches{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.patchesinfo{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+}
+
+.patchesinfo p{
+    margin: 20px;
+    text-align: center;
+}
 
  .artemisp{
-     float: left;
-     color: rgb(68, 65, 65);
-     line-height: 25px;
+    float: left;
+    color: rgb(68, 65, 65);
+    line-height: 25px;
  }
 
  .artemisicons{
     width: 180px;
     padding-top: 40px;
+    align-self: center;
  }
 
 /*Article 3--------------------------------------------------------------------------------------------------------------------------*/
