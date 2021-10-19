@@ -378,31 +378,24 @@ button:hover{
 
 /*Artemis Projects-------------------------------------------------------------*/
 
-.artemisimage{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.artemisfancy{
-    position: relative;
- }
 
  .artemislist{
     color: red;
+    display: flex;
+    flex-wrap: wrap;
+ 
  }
 
- .artemislist1{
-    padding-left: 200px;
-}
-
- ul .artmeistlist li{
+ /* ul .artmeistlist li{
     display: inline;
- }
+ } */
 
- .artemisli{
+ .artemislist div{
     font-size: 25px; 
     color: red;
+    padding: 20px;
+    text-decoration: underline;
+ 
  }
 
  .artemisp{
