@@ -197,8 +197,7 @@ video{
      font-weight: bolder;
      width: 130px;
      border-radius: 5px;
-     /* margin-left:600px; */
-     /* letter-spacing: 10px; */
+     letter-spacing: 10px;
 }
 
 
@@ -379,20 +378,20 @@ button:hover{
 /*Artemis Projects-------------------------------------------------------------*/
 
 
- .artemislist{
-    color: red;
-    display: flex;
-    flex-wrap: wrap;
- 
- }
+.artemislist{
+color: red;
+display: flex;
+flex-wrap: wrap;
 
- .artemislist div{
-    font-size: 25px; 
-    color: red;
-    padding: 20px;
-    text-decoration: underline;
- 
- }
+}
+
+.artemislist div{
+font-size: 25px; 
+color: red;
+padding: 20px;
+text-decoration: underline;
+
+}
 /* PATCHES & PATHCES INFO PATCHES & PATHCES INFO PATCHES & PATHCES INFO */
 .patches{
     display: flex;
