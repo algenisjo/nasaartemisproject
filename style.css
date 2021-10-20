@@ -64,6 +64,7 @@ li:hover{
 .overview{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .paragraph1{
     text-align: center;
@@ -71,6 +72,8 @@ li:hover{
     letter-spacing: 1.5px;
     line-height:1.5;
     margin: 20px;
+    max-width: 800px;
+    align-self: center;
 }
 
 .box1{
