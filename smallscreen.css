@@ -57,11 +57,23 @@
 font-size: 20px; 
 }
 
+.parallax{
+    display: none;
+}
 
+.parallax2{
+    display: none;
+}
+.parallax3{
+    display: none;
+}
+.parallax4{
+    display: none;
+}
 
-
-
-
+.fancy img{ 
+    height: 300px;
+}
 
 
 
