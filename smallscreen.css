@@ -2,6 +2,12 @@
 
 /* 320px — 480px: Mobile devices ----------------------------------*/
 @media only screen and (max-width: 480px) {
+
+.mainwallpaper img{
+width: 60%;
+height: 60%;
+}
+
 .paragraph1{
     font-size: 13px;
     text-align: center;
