@@ -501,4 +501,8 @@ text-decoration: underline;
 
 }
 
+.fancy img{
+    border: greenyellow dashed 3px;
+    width: 100%;
+}
 
