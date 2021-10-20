@@ -1,0 +1,56 @@
+/* ADDING BREAKPOINTS / MEDIA QUERIES------------------------------------------------------------------- */
+
+/* 320px — 480px: Mobile devices ----------------------------------*/
+@media only screen and (max-width: 480px) {
+.paragraph1{
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.box1{
+    font-size: 20px;
+    min-width: 300px;
+    max-width: 310px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* END OF MEDIA QUERY */
+
+     /* END OF MEDIA QUERY */
+     
+     /* END OF MEDIA QUERY */
+     
+     /* END OF MEDIA QUERY */
+
+     /* END OF MEDIA QUERY */
+}
